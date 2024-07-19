@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 function Search() {
-    return <div className="screens">
+    return <div className="mainbody">
         <Navbar/>
         Search
         </div>;
