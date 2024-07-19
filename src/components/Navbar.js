@@ -1,9 +1,5 @@
 import React from "react";
 import  "../index.css";
-import { AiFillHome } from "react-icons/ai";
-import { AiOutlineMenu } from "react-icons/ai";
-import { AiOutlineBulb } from "react-icons/ai";
-import { AiOutlineSearch } from "react-icons/ai";
 function Navbar(){
 
     return(
@@ -19,20 +15,20 @@ function Navbar(){
 
             <div>
                 <nav>
-                    < a href="/"><AiFillHome /></a>
+                    <a href="/"><img src="https://cdn-icons-png.flaticon.com/128/3917/3917032.png" className="icon" alt="Home"/></a>
                 </nav>
 
                 <nav>
-                    <a href="/discover"><AiOutlineBulb /></a>
+                    <a href="/discover"><img src="https://cdn-icons-png.flaticon.com/128/5069/5069162.png" className="icon" alt="Discover"/></a>
                 </nav>
                 <nav>
-                    <a href="/search"><AiOutlineSearch /></a>
+                    <a href="/search"><img src="https://cdn-icons-png.flaticon.com/128/3917/3917132.png" className="icon" alt="Search"/></a>
                 </nav>
             </div> 
 
             <div>
                 <nav>
-                    <a href="/library"><AiOutlineMenu /></a>
+                    <a href="/library"><img src="https://cdn-icons-png.flaticon.com/128/3917/3917215.png" className="icon" alt="Library"/></a>
                 </nav>
             </div> 
 
