@@ -1,5 +1,7 @@
 import React from "react";
 
-export default function Notfound() {
+function Discover() {
     return <div>Discover</div>;
 }
+
+export default Discover;
