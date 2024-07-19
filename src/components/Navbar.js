@@ -1,8 +1,9 @@
 import React from "react";
+import "./css/navbar.css"
 
 function Navbar(){
     return(
-        <div className="navbar">
+        <div className="navbar-container">
             <nav>
                 <a href="/">Home</a>
                 <a href="/discover">Discover</a>
